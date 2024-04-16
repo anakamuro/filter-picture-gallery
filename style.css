@@ -1,0 +1,30 @@
+body {
+    background-color:aqua;
+}
+
+ul {
+    height: 90px;
+    width: 100vw;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+ul li:hover {
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    gap: 2%;
+    margin: 2%;
+}
